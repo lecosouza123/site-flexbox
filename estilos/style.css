@@ -73,3 +73,105 @@ nav a:hover{
 .column{
     flex-direction: column;
 }
+
+.banner_headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+}
+.banner_headline h1 {
+    color: white;
+    font-weight: lighter;
+    font-size:72px;
+    padding: 0px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+    margin: 0px;
+    max-width: 350px;
+    margin-bottom: 15px;
+}
+.banner_headline h2 {
+    color: white;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 2em;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.452);
+}
+
+.banner_options {
+    display: flex;
+    height: 210px;
+    background-color: beige;
+    flex-direction: row;
+}
+.banner1,.banner2,.banner3{
+    flex:1;
+    color: white;
+    padding:20px;
+}
+.banner1{
+    background-color: #42B3E5;
+}
+p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner2{
+    background-color: #0384CE;
+}
+.banner3{
+    background-color: #3156A3;
+}
+.banner_title{
+    font-size:1.2em;
+}
+.banner_options  a{
+    display: inline-block;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+}
+.banner_options a:hover{
+    background-color: white;
+    color: black;
+    display: inline-block;
+}
+.banner_options a::after{
+    content: " ➪";
+}
+
+.hours{
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin-top: 15px;
+    border-bottom:solid 1px rgba(255, 255, 255, 0.151);
+    font-size: 0.8em;
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex:2;
+}
+#geral aside{
+    flex: 1;
+}
+.widget-title{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text{
+    font-size: 1.1em;
+    color: black;
+    font-weight: bolder;
+}
+
