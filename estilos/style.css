@@ -289,6 +289,17 @@ footer{
 .fm_1 > div > h3 {
     padding-bottom: 15px;
     font-size: 2em;
+    font-weight: lighter;
+}
+.fm_2 > div > h3 {
+    padding-bottom: 15px;
+    font-size: 2em;
+    font-weight: lighter;
+}
+.fm_3 > div > h3 {
+    padding-bottom: 15px;
+    font-size: 2em;
+    font-weight: lighter;
 }
 .fm_1{
     background-color: #42B3E5;
@@ -298,6 +309,9 @@ footer{
 }
 .fm_3{
     background-color: #3156A3;
+}
+.fm_especial::after{
+    content: " ➞";
 }
 
 .widget_title_bar.slide:after
